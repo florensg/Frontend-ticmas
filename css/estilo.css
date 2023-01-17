@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(240, 232, 220);
+}
+#perfil{
+    background-color: burlywood;
+}
+main{
+    display: flex;
+}
+#perfil_foto{
+    border: solid;
+    
+}
+img{
+    width: auto;
+    height: 100px;
+}
