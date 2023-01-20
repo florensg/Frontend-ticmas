@@ -1,17 +1,115 @@
-body{
-    background-color: rgb(240, 232, 220);
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    
 }
 #perfil{
-    background-color: burlywood;
+    background-color: #b48c7c;
 }
 main{
     display: flex;
 }
-#perfil_foto{
-    border: solid;
-    
+
+aside{
+    width: 350px;
+    color: #eceae9;
+    font-size: 13px;
+    height: 100%;
+}
+
+#perfil{
+    padding-inline: 40px;
 }
 img{
     width: auto;
-    height: 100px;
+    height: 225px;
+}
+#perfil_foto{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+#perfil_descripcion{
+    text-align: justify;
+}
+#perfil_descripcion > h4{
+    text-align: center;
+}
+
+#hr-perfil{
+    border: #fffefd83 solid 0.1rem;
+   
+    margin-top: 20px;
+    text-align: right;
+}
+
+.contacto-item{
+    display: flex;
+}
+.contacto-item > i{
+    padding: 10px;
+    margin: 0%;
+    align-items: center;
+    text-align: center;
+}
+.progress{
+    height: 7px !important;
+
+}
+.progress-bar{
+    background-color: #e0ac97 !important;
+    border-radius: 20px !important;
+}
+.p-datos{
+    margin-top: 20px;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+#datos{
+    background-color: #e0dddc;
+}
+
+#datos1,#datos2{
+    padding-left: 40px;
+    padding-right: 10px;
+    color: #463a37;
+}
+
+#persona{
+    padding-top: 50px;
+    display: flex;
+    flex-flow: column;
+}
+.persona-item{
+    margin: 0%;
+}
+.nombre{
+    font-size: 60px;
+    font-family: 'Times New Roman';
+    color: #633059;
+}
+.apellido{
+    font-size: 30px;
+    font-family: 'Century Gothic';
+    text-transform: uppercase;
+    text-align: right;
+    color: #b7958a;
+}
+
+#hr-datos{
+    border: 30px solid #c8b4ac;
+}
+.titulo{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.fecha{
+    text-align: right;
+    font-weight: lighter;
+    font-family: 'Century Gothic';
+    font-size: 13px;
+    padding-top: 0;
 }
