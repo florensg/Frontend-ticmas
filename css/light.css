@@ -6,6 +6,8 @@
     background-color: #b48c7c;
     padding-inline: 40px;
     height: 100%;
+    transition: background-color .3s;
+
     
 }
 main{
@@ -68,6 +70,8 @@ a:active,a:link,a:visited{
 .progress-bar{
     background-color: #e0ac97 !important;
     border-radius: 20px !important;
+    transition: background-color .3s;
+
 }
 .p-datos{
     margin-top: 20px;
@@ -80,6 +84,8 @@ a:active,a:link,a:visited{
 #datos{
     background-color: #e0dddc;
     width: 100%;
+    transition: background-color .3s;
+
 }
 #datos1,#datos2{
     padding-left: 40px;
@@ -140,4 +146,6 @@ a:active,a:link,a:visited{
 .btn{
     background-color: rgb(47, 63, 155) !important;
     color:  #e0dddc !important;
+    transition: background-color .3s;
+
 }
