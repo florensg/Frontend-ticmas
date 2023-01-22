@@ -142,10 +142,21 @@ a:active,a:link,a:visited{
 }
 .datos-button{
     float: right;
+    padding: 5px;
 }
 .btn{
-    background-color: rgb(47, 63, 155) !important;
-    color:  #e0dddc !important;
-    transition: background-color .3s;
+    background-color: #b7958a!important ;
+    transition: color .3s !important;
+    border: #b7958a solid 2px !important;
+    border-radius: 50% !important;
+}
 
+.bi-brightness-high-fill{
+    transition: color .3s !important;
+    color: #eceae9 !important;
+    font-size: 20px !important;
+}
+.bi-moon-fill{
+    transition: color .3s !important;
+    color: rgb(76, 78, 192)!important;
 }
