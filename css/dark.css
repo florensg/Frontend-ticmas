@@ -101,7 +101,7 @@ a:active,a:link,a:visited{
 .nombre{
     font-size: 60px;
     font-family: 'Times New Roman';
-    color: #E9EBEF;
+    color: #b2e2d9;
 }
 .apellido{
     font-size: 30px;
@@ -145,22 +145,24 @@ a:active,a:link,a:visited{
     float: right;
     padding: 5px;
 }
-.boton{
-    cursor:pointer;
-    width: 50px;
-    height: 50px;
-    background-color: #b7958a!important ;
-    transition: color .3s !important;
-    border: #ebe1dd solid 2px !important;
-    border-radius: 20% !important;
+.btn{
+    cursor: pointer;
+    border-radius: 50px  !important;
+}
+
+.btn:hover{
+    background-color: #32635B !important;
+    transition: background-color .3s !important;
 }
 
 .bi-brightness-high-fill{
     transition: color .3s !important;
-    color: #eceae9 !important;
-    font-size: 20px !important;
+    color:  #FFE9E0 !important;
 }
-.bi-moon-fill{
-    transition: color .3s !important;
-    color: rgb(76, 78, 192)!important;
+.bi-brightness-high-fill:hover{
+    color: #FFE9E0 !important;
+    transition: color .3 !important;
+}
+#icon{
+    font-size: 20px;
 }
